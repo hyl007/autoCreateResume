@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.token.property{
+    color: black;
+}
+.token.selector{
+    color: black;
+}
+.token.function{
+    color: black;
+}
+.code{
+    overflow: auto;
+    width:50%;
+    height:100vh;
+
+}
+
+
+#paper.html li{
+    list-style: none;
+}
+@keyframes breath{
+    0%{
+        box-shadow: 0 0 10px rgba(0,0,0,1)
+    }
+    100%{
+        box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    }
+}
+
+/**************/
+
+#paper{
+    font: 16px Helvetica, Avernir, sans-serif;
+    line-height: 24px;
+    color: #000;
+    transform-origin : 50% 50% 30px;
+    transform : rotateY(0deg);
+    transform-style : preserve-3d;
+    transition : all 1s ease;
+    box-shadow : 0 0 15px #333;
+    perspective : 2200px;
+}
+.html1 h1 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.html1 p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.html ul li{
+    display: inline-block;
+}
