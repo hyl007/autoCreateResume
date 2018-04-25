@@ -1,6 +1,4 @@
-/**
- *
- */
+
 var result=`
     /*
     *面试官你好，我是胡阳林
@@ -101,11 +99,7 @@ var md= `
 var result2=
     `
    /*
-    *重要的事情说三遍
-    *
-    *接下来用marked.js把markDown变成html
-    *
-    *接下来用marked.js把markDown变成html
+    *重要的事情要发生了
     *
     *接下来用marked.js把markDown变成html
     *
@@ -153,9 +147,7 @@ var result2=
 #paperWerpper div:nth-child(2){
     transform : rotateY(180deg);
 }
-.html ul li:hover{
-    text-shadow: 0 0 25px white;
-}
+
     /*
     * 这就是我的会动的简历
     * 谢谢观看
